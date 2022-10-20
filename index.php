@@ -116,6 +116,9 @@ $cover_image = 'http://www.androidguys.com/wp-content/uploads/2016/01/summer-sun
             background: orange;
             z-index: 1;
         }
+        .wrapper div:nth-of-type(3) {
+            background: blue;
+        }
 
         .wrapper div:nth-of-type(4) {
             background: yellow;
@@ -158,6 +161,9 @@ $cover_image = 'http://www.androidguys.com/wp-content/uploads/2016/01/summer-sun
 
         .divToggle4 {
             width: 100%;
+        }
+        img{
+            height:100%;
         }
     </style>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -273,10 +279,10 @@ $cover_image = 'http://www.androidguys.com/wp-content/uploads/2016/01/summer-sun
 
             ?>
         </div>
-        <div id="div3" class="divitem div3">
+        <div id="div3" class="divInt3">
 
         </div>
-        <div id="div4" class="divitem div4">
+        <div id="div4" class="divInt4">
             <p>
                 <?php
                 $i = 1;
